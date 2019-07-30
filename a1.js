@@ -8,10 +8,10 @@ $(document).ready(function(){
            
 var output="<table class='table'><thead><tr><th>title</th><th>description</th><th>read more</th><th>image</th></tr></thead>"
             for(var j in out){
-output +="<tr><td>" +f[j].title+"</td>"
-output +="<td>" +f[j].description+"</td>"
-output +="<td><A Href=" +f[j].url+">readmore</A></td>"
-output +="<td><img src="+f[j].urlToImage+" style=width:100px;height:50px></td></tr>"
+output +="<tr><td>" +out[j].title+"</td>"
+output +="<td>" +out[j].description+"</td>"
+output +="<td><A Href=" +out[j].url+">readmore</A></td>"
+output +="<td><img src="+out[j].urlToImage+" style=width:100px;height:50px></td></tr>"
             }
 
 
